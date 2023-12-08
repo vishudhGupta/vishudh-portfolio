@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&family=Wallpoet&display=swap');
+
+body {
+    background-image: url(/assets/bg.jpg);
+    height: 100%;
+    width: auto;
+
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+
+nav ul {
+    display: flex;
+    border: 2px solid white;
+    background-color: rgba(217, 217, 217, 0.00);
+    padding: 2px;
+    box-shadow: 0 0px 13px 0 rgb(255 255 255);
+}
+
+.blur {
+    position: relative;
+    border: 2px solid red;
+}
+
+nav ul li {
+    color: white;
+    padding: 10px;
+    list-style-type: none;
+    padding: 15px 20px;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+ul a li:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: #ECE662;
+    font-weight: 700;
+    transition: all ease-in-out 0.4s;
+}
+
+.connect {
+    border: 2px solid white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 10px;
+    margin: auto;
+    position: relative;
+    top: -45px;
+    box-shadow: 0 0px 13px 0 rgb(255 255 255);
+}
+
+.icon {
+    padding: 10px 5px;
+}
+
+main {
+    display: flex;
+    margin: 45px 0px 115px 19px;
+}
+
+.name {
+    margin: 15px 0px 15px 130px;
+
+}
+
+.naam {
+    color: #ECE662;
+    font-family: 'Wallpoet', sans-serif;
+    font-size: 4em;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+
+.role {
+    color: white;
+    font-family: 'Wallpoet', sans-serif;
+    font-size: 5.1em;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+#typo {
+    color: #5F6469;
+    font-weight: 700;
+    font-size: 1.5em;
+    font-family: 'Inconsolata', monospace;
+
+}
+
+.changable {
+    color: #FFF;
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#changable_text {
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(137deg, #ECE662 11.82%, #FEFEF9 64.09%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px 0px;
+}
+
+.btn {
+    height: 60px;
+    width: 180px;
+    border: 1px solid #cca760;
+    background: #ECE662;
+    color: #010911;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inconsolata', monospace;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    margin: 20px 0px;
+    box-shadow: 0 0px 12px 0 rgba(204, 167, 96, 1);
+
+}
+
+.arrow_main_box {
+    position: relative;
+    top: 18vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+
+}
+
+.arrow_box {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.arrow_box1 {
+    height: 15px;
+    width: 15px;
+    background-color: #ECE662;
+    margin-bottom: 15px;
+}
+
+.line {
+    width: 3px;
+    height: 65px;
+    background-color: white;
+}
+
+.arrow_tip {
+    position: relative;
+    top: -35px;
+    color: white;
+    font-size: 3em;
+    font-weight: bolder;
+    transform: rotate(90deg);
+
+
+}
+
+.ball {
+    position: relative;
+    top: 21vw;
+    margin: 0px 0px 0px 35px;
+}
+
+/* ****************INTRODUCTION STARTS HERE **************** */
+#intro {
+    display: flex;
+    margin-bottom: -24%;
+}
+
+.introduction {
+    border: 2px solid white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    margin: 0px 35px;
+    box-shadow: 0 0px 13px 0 rgb(255 255 255);
+    height: 1%;
+}
+
+.intr {
+    color: white;
+    padding: 2px 15px;
+    font-family: 'Wallpoet', sans-serif;
+    font-size: 3rem;
+}
+
+.me {
+    margin-left: 10%;
+}
+
+.intro_text {
+    border-radius: 20px;
+    border: 1px solid #ECE662;
+    background: rgba(31, 31, 31, 0.45);
+    /* width: 70%; */
+}
+
+.intro_text>p {
+    color: #FFF;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.2px;
+    padding: 6px 17px 10px 27px;
+}
+
+.about {
+    color: #ECE662;
+    font-family: 'Wallpoet', sans-serif;
+    font-size: 40px;
+    position: relative;
+    top: -7em;
+    left: 15em;
+    font-weight: 400;
+
+}
+
+.cartoon1 {
+    height: 250px;
+    width: 250px;
+}
+
+.cartoon2 {
+    position: relative;
+    top: -5em;
+}
+
+.cartoon3 {
+    position: relative;
+    top: -10em;
+}
+
+.cartoon4 {
+    position: relative;
+    top: -15em;
+}
+
+/* -------------------------------INTRODUCTION ENDS----------------------- */
+/* --------------------SERVICES STARTS HERE ------------------------------------------ */
+.services {
+    display: flex;
+}
+
+.service {
+    border: 2px solid white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    margin: 0px 35px;
+    box-shadow: 0 0px 13px 0 rgb(255 255 255);
+    height: 1%;
+}
+
+.ser {
+    color: white;
+    padding: 2px 15px;
+    font-family: 'Wallpoet', sans-serif;
+    font-size: 3rem;
+}
+.responsive{
+    margin-left: 5%;
+}
+.gif1 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.gif2 {
+    width: fit-content;
+    margin: 0px 35px;
+}
+.head{
+    width: fit-content;
+}
+
+.head>h1 {
+    color: #ECE662;
+    /* text-align: center; */
+    font-family: 'Wallpoet', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+    width: fit-content;
+}
+
+.head>h2 {
+    color: #FFF;
+    font-family: 'Wallpoet', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 35px;
+    width: fit-content;
+}
+
+.txt {
+    width: 34%;
+}
+
+.txt>p {
+    color: rgba(255, 255, 255, 0.76);
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: fit-content;
+}
