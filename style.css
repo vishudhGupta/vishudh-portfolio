@@ -4,7 +4,7 @@ body {
     background-image: url(/assets/bg.jpg);
     height: 100%;
     width: auto;
-
+    overflow-x: hidden;
 }
 
 .navigation {
@@ -289,20 +289,24 @@ main {
     font-family: 'Wallpoet', sans-serif;
     font-size: 3rem;
 }
-.responsive{
+
+.responsive {
     margin-left: 5%;
 }
+
 .gif1 {
     display: flex;
     justify-content: center;
-    
+
 }
 
 .gif2 {
     width: fit-content;
-    margin: 0px 35px;
+    position: relative;
+    left: 28%;
 }
-.head{
+
+.head {
     width: fit-content;
 }
 
@@ -314,7 +318,7 @@ main {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin: 0px;
+    margin: 0px 30px;
     width: fit-content;
 }
 
@@ -325,12 +329,16 @@ main {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin: 0px 35px;
+    margin: 0px 70px;
     width: fit-content;
 }
 
 .txt {
-    width: 34%;
+    width: 280px;
+    height: 76px;
+    flex-shrink: 0;
+    margin: 0px -10px;
+
 }
 
 .txt>p {
@@ -342,4 +350,131 @@ main {
     font-weight: 700;
     line-height: normal;
     width: fit-content;
+}
+
+.dev {
+    width: 45%;
+}
+
+.dev>h1 {
+    color: #ECE662;
+    font-family: 'Wallpoet', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    left: 10%;
+
+}
+
+.dev>p {
+    color: rgba(255, 255, 255, 0.76);
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 80%;
+    position: relative;
+    left: 5%;
+}
+
+.gif3 {
+    width: fit-content;
+    position: relative;
+    left: 28%;
+
+}
+
+.head1 {
+    width: fit-content;
+}
+
+.head1>h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Wallpoet', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    left: 31%;
+    margin: 0px;
+}
+
+.head1>h2 {
+    color: #ECE662;
+    font-family: 'Wallpoet', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    left: 31%;
+    margin: 0px;
+}
+
+.txt1 {
+    width: 280px;
+    height: 76px;
+    flex-shrink: 0;
+    margin: 0px -10px;
+
+}
+
+.txt1>p {
+    color: rgba(255, 255, 255, 0.76);
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: fit-content;
+}
+
+.tools {
+    width: 451.51px;
+    height: 352.477px;
+    border-radius: 15px;
+    background: rgba(145, 147, 150, 0.27);
+    position: relative;
+    left: 37%;
+    top: -13em;
+}
+
+.lang>h1 , .dvtool > h1 {
+    color: #ECE662;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.lang>p {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.toolList ul {
+    color: #FFF;
+    font-family: 'Inconsolata', monospace;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.toolList{
+    display: flex;
+    justify-content: center;
 }
