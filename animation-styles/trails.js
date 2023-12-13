@@ -1,18 +1,18 @@
 let x1=0, y1=0;
 const 
-  dist_to_draw = 0.1,
+  dist_to_draw = 5,
   delay = 800,
   fsize = [
     '1.1rem', '1.4rem', '.8rem', '1.7rem'
   ],
   colors = [
-    '#ffffff'
-  // '#E23636'
-  // '#F9F3EE',
-  // '#E1F8DC',
-  // '#B8AFE6',
-  // '#AEE1CD',
-  // '#5EB0E5'
+    '#ffffff',
+  '#E23636',
+  '#F9F3EE',
+  '#E1F8DC',
+  '#B8AFE6',
+  '#AEE1CD',
+  '#5EB0E5'
 ],
   rand = (min, max) => 
     Math.floor(Math.random() * (max - min + 1)) + min,

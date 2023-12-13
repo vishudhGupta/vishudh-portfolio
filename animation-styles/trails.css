@@ -10,7 +10,7 @@
 
 .star:before {
   position: absolute;
-  content: "*";
+  content: "❤";
   color: inherit;
   inset: 0;
   text-shadow: 0 0 0.8em #fff5;

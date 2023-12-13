@@ -7,6 +7,11 @@ body {
     overflow-x: hidden;
 }
 
+.logo {
+    position: relative;
+    left: -19%;
+}
+
 .navigation {
     display: flex;
     justify-content: center;
@@ -446,7 +451,8 @@ main {
     top: -13em;
 }
 
-.lang>h1 , .dvtool > h1 {
+.lang>h1,
+.dvtool>h1 {
     color: #ECE662;
     font-family: 'Inconsolata', monospace;
     font-size: 20px;
@@ -466,15 +472,220 @@ main {
     font-weight: 700;
     line-height: normal;
 }
+
 .toolList ul {
     color: #FFF;
     font-family: 'Inconsolata', monospace;
-font-size: 20px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.toolList {
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------------------------------PROJECTSG------------------------------- */
+.project {
+    display: flex;
+}
+
+.project_head {
+    border: 2px solid white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    margin: 0px 35px;
+    box-shadow: 0 0px 13px 0 rgb(255 255 255);
+    height: 1%;
+}
+
+.proj {
+    color: white;
+    padding: 2px 15px;
+    font-family: 'Wallpoet', sans-serif;
+    font-size: 3rem;
+}
+
+.project_card {
+    width: 374px;
+    height: 269px;
+    flex-shrink: 0;
+
+    margin: 38px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -7em;
+}
+
+.project_card a:hover {
+    opacity: 0.2;
+    transition: ease-in-out 0.5s;
+
+}
+
+.project_card:hover {
+    transition: all 1s;
+
+    .view {
+        display: block;
+
+    }
+}
+
+.view:hover {
+    .project_card a {
+        opacity: 0.2;
+    }
+}
+
+.view {
+    position: relative;
+    top: -65%;
+    left: 40%;
+    display: none;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #cca760;
+    background: #ECE662;
+    color: #010911;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inconsolata', monospace;
+    font-size: 25px;
+
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    margin: 20px 0px;
+    box-shadow: 0 0px 12px 0 rgba(204, 167, 96, 1);
+}
+.see_button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -5em;
+}
+
+.see_more {
+    height: 64px;
+    width: 270px;
+    border: 1px solid #cca760;
+    background: #ECE662;
+    color: #010911;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inconsolata', monospace;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    margin: 20px 0px;
+    box-shadow: 0 0px 12px 0 rgba(204, 167, 96, 1);
+}
+.blank_rec{
+    height: 288.702px;
+margin-top: 50px;
+    border-radius: 15px;
+background: rgba(145, 147, 150, 0.27);
+text-align: center;
+}
+.start_project{
+    border-radius: 15px;
+background: #D9D9D9;
+height: 60%;
+width: 70%;
+position: relative;
+left: 15%;
+top: -25%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.start_head div{
+    color: #000;
+    font-family: 'Inconsolata', monospace;
+font-size: 36px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-.toolList{
+.start_para div{
+    color: #000;
+text-align: center;
+font-family: 'Inconsolata', monospace;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.start_button button{
+    color: rgba(255, 255, 255, 0.91);
+text-align: center;
+font-family: 'Inconsolata', monospace;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: 1px solid #010911;
+background: #000;
+padding: 10px;
+}
+footer{
     display: flex;
+    flex-direction: column;
+    background: #010911;
     justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.quote{
+    margin: 20px 0px;
+}
+.quote div{
+    color: #FFF;
+text-align: center;
+font-family: 'Inconsolata', monospace;         
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.foot_connect{
+    margin: 20px 0px;
+}
+.foot_connect{
+    border: 2px solid #FFF;
+background: rgba(31, 31, 31, 0.00);
+width: fit-content;
+}
+.copyright{
+    margin: 20px 0px;
+}
+.copyright div {
+    color: #ECE662;
+text-align: center;
+font-family: 'Inconsolata', monospace;  
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.copyright div a {
+    color: #ECE662;
+text-align: center;
+font-family: 'Inconsolata', monospace;  
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration: none;
+
 }
